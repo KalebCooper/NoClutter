@@ -9,7 +9,12 @@
 import Cocoa
 
 class ViewController: NSViewController {
-
+    
+    
+    //MARK: Outlets
+    @IBOutlet weak var logoImageView: NSImageView!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
